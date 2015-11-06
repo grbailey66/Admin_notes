@@ -1,0 +1,22 @@
+WGET ideas and scripts
+
+# wget a single file.
+# wget_file <host/path> <path/file> <destination path/file>
+wget_file() {
+  /usr/bin/wget \
+    --output-document=${$3} \
+    http://$1/$2
+}
+
+# wget the contents of a directory.
+# wget_dir <host/path> <path/file>
+wget_dir() {
+  /usr/bin/wget \
+    --recursive \
+    --no-proxy \
+    --no-parent \
+    --no-directories \
+    --timestamping \
+    --reject "index.*" \
+    http://$1/$2
+}
