@@ -1,0 +1,29 @@
+============  Auditd Notes=================================
+===========================================================
+======== aureport - top hitters  ======
+aureport -ts today -i -s --summary
+[‎11/‎30/‎2015 2:53 PM] Bailey,Glenn R (CONTR) - JSOS-3: 
+pbhx01db01:
+
+Syscall Summary Report
+==========================
+total  syscall
+==========================
+23311  unlink
+9963  unlinkat
+5104  adjtimex
+3244  rmdir
+1291  sched_setscheduler
+1140  fchmod
+31  open
+23  chmod
+15  chown
+12  setxattr
+3  fchown
+2  rename
+2  link 
+
+================================================================
+====== auditctl current parameter status  ===============
+ auditctl -s
+AUDIT_STATUS: enabled=1 flag=1 pid=10171 rate_limit=0 backlog_limit=32768 lost=0 backlog=0 
