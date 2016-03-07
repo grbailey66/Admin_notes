@@ -1,0 +1,14 @@
+LSOF
+    lsof /var/log/messages
+    
+    all files in directory:
+      lsof +d <dir>
+      
+    All files in dir and subdir
+       lsof +D <dir>
+       
+  Umount busy?  -- this trick only works if /home is a separate partition
+     umount /home
+     umount: /home: device is busy
+     kill $(lsof -t /home)
+     umount /home
