@@ -1,4 +1,4 @@
-LSOF
+### LSOF
     lsof /var/log/messages
     
     all files in directory:
@@ -12,3 +12,9 @@ LSOF
      umount: /home: device is busy
      kill $(lsof -t /home)
      umount /home
+     
+ ### PERFORMANCE
+   
+dstat -tclypmsnd 5
+-----time----- ----total-cpu-usage---- ---load-avg--- ---system-- ---procs--- ------memory-usage----- ----swap--- -net/total- -dsk/total-
+  date/time   |usr sys idl wai hiq siq| 1m   5m  15m | int   csw |run blk new| used  buff  cach  free| used  free| recv  send| read  writ
