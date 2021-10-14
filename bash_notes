@@ -1,0 +1,36 @@
+## References
+
+### Learning Bash
+https://linuxconfig.org/bash-scripting-tutorial-for-beginners
+https://www.learnshell.org/
+https://www.redhat.com/sysadmin/topics/bash
+https://www.freecodecamp.org/news/search/?query=bash
+
+### BASH Manual
+https://www.gnu.org/software/bash/manual/bash.html
+`info bash`
+`man bash`
+
+https://opensource.com/downloads/bash-scripting-ebook?intcmp=701f20000012ngPAA
+
+### Script checking
+https://github.com/koalaman/shellcheck
+https://owasp.org/www-community/attacks/Command_Injection
+
+### Code Repositories
+https://github.com/PacktPublishing/Complete-Bash-Shell-Scripting-
+https://github.com/jayant2014/Bash-Scripting
+https://github.com/Md-MamunAbdulKayum/shell-scripting-examples
+
+https://www.redhat.com/sysadmin/stupid-bash-tricks
+
+### On-Line code testing
+https://www.mycompiler.io/new/bash
+https://rextester.com/l/bash_online_compiler
+https://leetcode.com/playground/new/empty
+
+### BASH Exit codes
+https://www.redhat.com/sysadmin/exit-codes-demystified
+
+### BASH While looping possibilities
+https://www.redhat.com/sysadmin/bash-scripting-while-loops
